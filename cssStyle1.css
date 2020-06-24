@@ -13,11 +13,11 @@ td, th {
 
 #divMenu {
     font-family: arial, sans-serif;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 200px;
     height: auto;
     top: 0;
-    display: inline-block;
+    float: left;
 }
 
 #logo {
@@ -27,7 +27,7 @@ td, th {
 }
 
 #divContent {
-    background-color: rgb(17, 0, 255);
-    margin-left: 50px;
-    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    margin-left: 250px;
+    display: table-cell;
 }

@@ -1,12 +1,14 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
+    border-style: solid;
   }
   
 td, th {
     border: 2px solid #000000;
     text-align: left;
-    padding: 8px;
+    padding: 4px;
+    border-style: solid;
   }
 
 #divMenu {

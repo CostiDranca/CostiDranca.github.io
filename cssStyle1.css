@@ -9,10 +9,27 @@ td, th {
     text-align: left;
     padding: 4px;
     border-style: solid;
+    font-size: small;
   }
+
+p {
+  font-size: small;
+  font-family: arial, sans-serif;
+}
+
+.butoane {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 7px 2px;
+  text-align: left;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
 
 #divMenu {
     font-family: arial, sans-serif;
+    font-size: 5;
     background-color: rgb(255, 255, 255);
     width: 200px;
     height: auto;
@@ -26,7 +43,26 @@ td, th {
     top: 0;
 }
 
-#divContent {
+#divClasamentActual {
+    position : absolute;
+    visibility: hidden;
     background-color: rgb(255, 255, 255);
-    margin-left: 250px;
+    font-size: small;
+    margin-left: 230px;
+}
+
+#divRegulament {
+  position : absolute;
+  visibility: visible;
+  background-color: rgb(255, 255, 255);
+  font-size: small;
+  margin-left: 230px;
+}
+
+#divClasamenteAnterioare {
+  position : absolute;
+  visibility: hidden;
+  background-color: rgb(255, 255, 255);
+  font-size: small;
+  margin-left: 230px;
 }

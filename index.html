@@ -10,11 +10,15 @@
 
             <div id = "divMenu">
                 <img id = "logo" src="img/logo.png" alt="Logo">
-                <h3><a href="regulament.html">REGULAMENT</a></h3>
-                <h3><a href="regulament.html">REGULAMENT</a></h3>
-                <h3><a href="regulament.html">REGULAMENT</a></h3>
+                <button class = "butoane" onclick="changeContent(0)">Regulament</button>
+                <button class = "butoane" onclick="changeContent(1)">Clasament actual</button>
+                <button class = "butoane" onclick="changeContent(2)">Clasamente anterioare</button>
             </div>
-        <div id = "divContent">
+        <div id = "divRegulament" class = "content">
+            <h3>Regulament</h3>
+            <p>Acesta este Regulamentul</p>
+        </div>
+        <div id = "divClasamentActual" class = "content">
             <table>
                 <tr>
                 <th>#</th><th>Gamer</th><th>Pheonix</th><th>Points</th><th>Rainbow</th><th>Points.1</th><th>AGG</th><th>Changes</th><th>DIFF</th>
@@ -77,6 +81,10 @@
                 <td>19</td><td>Tanta S.</td><td>0</td><td>0.0</td><td>3[Bg7]</td><td>3.0</td><td>0.6</td><td>=</td><td>0.0</td>
                 </tr>
                 </table>
+        </div>
+        <div id = "divClasamenteAnterioare" class = "content">
+            <h3>Clasamente Anterioare</h3>
+            <p>Acesta este Regulamentul</p>
         </div>
     </div>
 </body>
